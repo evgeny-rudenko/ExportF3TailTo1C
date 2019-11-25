@@ -1,0 +1,9 @@
+<xml>
+  <Certificate>
+    <ModuleName>R14S1cExportRuUralNB_5.dll</ModuleName>
+    <ModuleHash>eWP8lMsHFBAYc372vmKhlA==</ModuleHash>
+    <CertificateDate>2018-08-29T09:23:18.875</CertificateDate>
+    <Generator>SRV-01</Generator>
+    <Signature>fW6S29mOhvZ4B1FSpEPpQP0z1sQcT3A8EjEAmZsw9tmJNTtZmiQsIG1JbcCgXZqRgq7plG7FIcrd8By66x09k4eQ+Qq8rYRfV8UutyrvAyw44G7Mfvw2wISpCxp7Yb8DdTe1n/Navh+8p3HTHtk1qjrasPXlXT2H6PFH3XKIc1A=</Signature>
+  </Certificate>
+</xml>
