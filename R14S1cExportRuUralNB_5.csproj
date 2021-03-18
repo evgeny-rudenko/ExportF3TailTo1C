@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ePlus.Export1c.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46">
-      <HintPath>..\Client\ePlus.Export1c.Client.dll</HintPath>
+      <HintPath>..\..\..\..\..\F3TAIL\Client\ePlus.Export1c.Client.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +45,9 @@
       <DesignTimeSharedInput>false</DesignTimeSharedInput>
     </Compile>
     <EmbeddedResource Include="R14S1cExportRuUralNB.USP_EXPORT_1C_NB.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.MD" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
