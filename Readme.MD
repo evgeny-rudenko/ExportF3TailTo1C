@@ -10,3 +10,25 @@
 * Запускаем Сервис -> обновление отчетов 
 * Сервис - настройки системы - константы - модули - процедура выгрузки в 1с
 * выбираем процедуру из нашей библиотеки 
+
+
+select * from SYS_OPTION
+where name like '%1%'
+
+После обновления ломается добавление нужной библиотеки для выгрузки в 1с
+Нужно загрузить нужную через обновление отчетов и установить в параметрах номер нужной выгрузки
+
+
+Запрос для изменения :
+update SYS_OPTION
+set value = '<XML><IdMetaReport>349</IdMetaReport></XML>'
+where ID_OPTION = 661 -- номер параметра в системных настройках. В разных БД может отличатсься.
+
+
+update meta_report
+set version =0
+where id_meta_report = 349
+
+select * from meta_report
+where type_name like '%export%nb%'
+order by date_modified desc
